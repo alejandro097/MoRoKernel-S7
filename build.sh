@@ -9,7 +9,8 @@
 # -----
 export ARCH=arm64
 export SUBARCH=arm64
-export BUILD_CROSS_COMPILE=/home/moro/kernel/toolchains/ubertc-6.5/bin/aarch64-linux-android-
+export BUILD_CROSS_COMPILE=~/kernel/gcc/bin/aarch64-linux-android-
+#export BUILD_CROSS_COMPILE=~/kernel/ubertc-6.5/bin/aarch64-linux-android-
 export CROSS_COMPILE=$BUILD_CROSS_COMPILE
 export BUILD_JOB_NUMBER=`grep processor /proc/cpuinfo|wc -l`
 
